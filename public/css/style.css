@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  body{
+     padding: 0px;
+     margin:0px;
+  }
+/*HEADER ------------------------------------------------*/
+.contenedorDHeader{
+    position: absolute;
+    top:0px;
+z-index: 100;
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2.5px rgb(234, 234, 234);
+
+}
+.CONTcontenedorCrearIniciar{
+    
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px black;
+}
+.contenedorCrearIniciar{
+    height: auto;
+    color:rgb(90, 104, 118);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display:flex;
+    justify-content: flex-end;
+}
+.Crear{
+    margin-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.Iniciar{
+    margin-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+.parteDAbajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    width: 100%;
+    height: auto;
+}
+.contenedorDLogo{
+    width: 120px;
+    height: 120px;
+}
+.logoHeader{
+    height: 100%;
+    width: 100%;
+}
+.contenedorDLista{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.ulListaHeader{
+    color:rgb(90, 104, 118);
+    font-family: "Lato";
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+
+.liMenu{
+    padding: 15px;
+}
+
+.contenedorBusCar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.contenedorCarrito{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+}
+.imgCarrito{
+    width: 100%;
+    height: 100%;
+}
+/* BARRA NAVEGACION */
+.imputBuscador{
+    width: 200px;
+    height: 28px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+    border-radius:14px;
+    color: rgba(44, 62, 80, 0.8);
+    background-color: #ffffff;
+    border: 1px solid #2c3e50;
+}
+/* FIN BARRA NAVEGACION */
+  
+  /* FIN CSS HEADER ----------------------------------------------*/
+  /*
+  
+  FOOTER
+  -----------------
+  */
+  .contenedorDEFooter{
+      width: 100%;
+      height: auto;
+      border-top: solid 2.5px rgb(234, 234, 234);
+     /*  font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Cabin', sans-serif; */
+  }
+  .contenedorparte1{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Nunito', sans-serif;
+  }
+  .contenedorNavegacionFoo{
+      width: 30%;
+  }
+
+  .ulNavegacion{
+    color: #2c3e50;
+     margin-left: 50px;
+     list-style: none;
+     
+  }
+  .liNavegacion{
+      margin: 10px;
+  }
+  .liTituloNav{
+      font-weight: bold;
+  }
+.contenedorFormasDPago{
+    margin:16px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+  .contenedorTExtoFooter{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+   border-top: 1px solid black;
+    color: #2c3e50;
+    display:flex;
+    justify-content:center;
+    font-family: 'Roboto Condensed', sans-serif;
+      font-family: 'Cabin', sans-serif;
+}
+  
+   
+      /* FIN CSS FOOTER ---------------*/
+ 
+  /* CSS HOME  */
+
+.contenedorDeInicio{
+    height: auto;
+   }
+   .imagenDeArriba{
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       height: auto;
+       margin-top: 185px;
+   }
+   .imgInicio{
+       width: 100%;
+       height: 340px;
+   }
+   
+   .contenedorTituloYProductos{
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   .contenedorTituloYProductos{
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction:column;
+       align-items: center;
+   }
+   .tituloPruductos{
+        width: 100%;
+        height: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Cabin', sans-serif;
+        text-align: center;
+        margin-top: 45px;
+        font-size: 20px;
+        color: rgb(69, 85, 101);
+   }
+   .ulCategorias{
+       list-style: none;
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:row;
+       align-items: center;
+       padding: 0px;
+   }
+   .liCategoriasPro{
+       margin-left: 20px;
+       background-color: rgb(167, 48, 48 );
+       color:white;
+       border-bottom: 4px solid #611313;
+       border-radius: 5px;
+       padding: 10px;
+       font-size:15px ;
+       font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Cabin', sans-serif;
+   }
+   .liCategoriasPro:hover{
+      background:#931313;
+    }
+
+    .contenedorDDestacados{
+        width: 90%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Cabin', sans-serif;
+        color:rgb(55, 72, 89);
+    }
+    .tituloLanza{
+        display: inline-block;
+        position: relative;
+    }
+    .tituloLanza::after{
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 1px;
+        background-color:rgb(55, 72, 89);
+        top: 0.6em;
+        left: 320px;
+    }
+    .tituloLanza::before{
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 1px;
+        background-color:rgb(55, 72, 89);
+        top: 0.6em;
+        left: -410px;
+    }
+    .contenedorDArt{
+        width:100% ;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .articulosPaVender{
+        display: flex;
+        flex-wrap: wrap;
+        width: 23%;
+        height: 250px;
+        margin: 10px;
+      /*   padding: 10px; */
+        background-color: red;
+    }
+    .cssimg{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .contenedorDSEguinosYFotos{
+        width: 90%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .contenedorDeSeguinos{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Cabin', sans-serif;
+        color:rgb(55, 72, 89);
+    }
+    .tituloSeguinos{
+        display: inline-block;
+        position: relative;
+    }
+    .tituloSeguinos::after{
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 1px;
+        background-color:rgb(55, 72, 89);
+        top: 0.6em;
+        left: 230px;
+    }
+    .tituloSeguinos::before{
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 1px;
+        background-color:rgb(55, 72, 89);
+        top: 0.6em;
+        left: -410px;
+    }
+    .contenedosDeFotoIGFC{
+        width: 100%;
+        height: auto;
+      /*   background-color: black; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contenedorFacebook{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .imgface{
+        width: 100%;
+        height: auto;
+        border-bottom: 4px solid #1d466d;
+        border-radius: 80px;
+    }
+    .imgface:hover {filter: opacity(.5);}
+   
+    .contenedorIg{
+        width:50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .imgIg{
+        width: 100%;
+        height: auto;
+        border-bottom: 4px solid #c44927;
+        border-radius: 80px;
+    }
+      .imgIg:hover {filter: opacity(.5);}
+   
+
+
+
+   
+   /* FIN CSS HOME------------------------------------------- */
+   /* CSS VISTA DE SANTI */
+   .contenedorDeTodoSanty{
+       display: flex;
+       flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+       margin-top: 185px;
+       background-color: red;
+    width: 100%;   
+    height: auto;
+    background-image: url(/img/fondosanty.jpg);
+   }
+  
+   .contenedorDelCentro{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:column;
+      
+       width: 30%;
+       height: 500px;
+
+       margin-top: 50px;
+       margin-bottom: 50px;
+       background-color:rgba(255, 255, 255, 0.8) ;
+       z-index: 10;
+   }
+   .tresiconosDeSanty{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       flex-direction: row;
+       width: 98%;
+       height: auto;
+      /*  background-color: red; */
+       margin-top: 20px;
+   }
+   .perfilNombresSanty{
+       width: 98%;
+       height: 65%;
+       margin:4px;
+       background-color: red;
+   }
+   .redesSocialesSanty{
+       width: 98%;
+       height: 15%;
+       margin: 4px;
+       background-color: red;
+   }
+   .fechaSanty{
+       width: 50%;
+       height: 100%;
+
+      /*  background-color: black; */
+   }
+   .dossImagenesSanty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+
+    width: 50%;
+    height: 100%;
+
+  /*   background-color:white; */
+   }
+   .contenedorDeFotoMenuSanty{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30px;   
+    height: 30px;
+   }
+   .fotomenusanty{
+       width: 100%;
+       height: 100%;
+   }
+/* fin css vista santi */
+
+
+     
