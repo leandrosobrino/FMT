@@ -28,6 +28,16 @@ route::get('/santy',function() {
     return view('santy');
 });/* FIN PRACTICA PARA SANTI-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
 
+/* PRODUCTOS-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
+route::get('/productos',function() {
+    return view('productos');
+});/* FIN PRODUCTOS-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
+
+/* LOGIN-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
+route::get('/login',function() {
+    return view('login');
+});/* FIN LOGIN-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
+
 /* FOOTER-.-.-.-.-.-.-.-.-.-.-.-.-*/ 
 route::get('/footer',function() {
     return view('footer');
