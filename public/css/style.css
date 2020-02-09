@@ -123,8 +123,7 @@ z-index: 100;
   .contenedorDEFooter{
       width: 100%;
       height: auto;
-      position: absolute;
-      bottom: 0;
+     
       border-top: solid 2.5px rgb(234, 234, 234);
      /*  font-family: 'Roboto Condensed', sans-serif;
         font-family: 'Cabin', sans-serif; */
@@ -626,9 +625,6 @@ z-index: 100;
     top: 0.6em;
     left: -410px;
 }
-
-
-
 /* FIN  CSS PRODUCTOS..................*/
 
      
